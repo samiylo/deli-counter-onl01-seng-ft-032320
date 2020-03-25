@@ -23,7 +23,8 @@ end
 
 def take_a_number(line,new_guest)
   line.push(new_guest)
-  puts "Welcome, #{new_guest}. You are number #{line.index[new_guest] + 1}"
+  puts "Welcome, #{new_guest}. You are number #{line.index(new_guest) + 1} in line."
+end
   
   
   
